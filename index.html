@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css" integrity="sha512-DJLNx+VLY4aEiEQFjiawXaiceujj5GA7lIY8CHCIGQCBPfsEG0nGz1edb4Jvw1LR7q031zS5PpPqFuPA8ihlRA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/regular.min.css" integrity="sha512-KYEnM30Gjf5tMbgsrQJsR0FSpufP9S4EiAYi168MvTjK6E83x3r6PTvLPlXYX350/doBXmTFUEnJr/nCsDovuw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/solid.min.css" integrity="sha512-Hp+WwK4QdKZk9/W0ViDvLunYjFrGJmNDt6sCflZNkjgvNq9mY+0tMbd6tWMiAlcf1OQyqL4gn2rYp7UsfssZPA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/stylesheets/min.css/styles.min.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="root">
+        <div class="container">
+            <div class="employee-detail-wrap">
+                <div class="employee-detail-head">
+                    <div class="head-text">
+                        <p>Detail Employee</p>
+                    </div>
+                    <div class="button-wrap">
+                        <div class="dropdown">
+                            <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                This Year
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">2023</a></li>
+                                <li><a class="dropdown-item" href="#">2022</a></li>
+                                <li><a class="dropdown-item" href="#">2021</a></li>
+                            </ul>
+                        </div>
+                        <button type="button" class="btn btn-success"> <img src="./assets/images/download.svg" alt="download"> <span>Download Info</span></button>
+                    </div>
+                </div>
+                <div class="person-info">
+                    <div class="image-info">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    </div>
+                    <div class="detail-wrap">
+                        <div class="name-text">Praveen Akash</div>
+                        <div class="detail-info">
+                            <div class="info-card">
+                                <div class="info-head">Role</div>
+                                <div class="info-text">Head of UX Design</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-head">Phone number</div>
+                                <div class="info-text">(+62) 812 3456-7890</div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-head">Email address</div>
+                                <div class="info-text">
+                                    <a href="mailto:praveenkadhiravan52853@gmail.com">praveenkadhiravan52853@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attadance-info">
+                    <div class="attadance-card">
+                        <div class="image-logo">
+                            <img src="./assets/images/rightarrow.svg" alt="rightarrow">
+                        </div>
+                        <div class="info-text">
+                            <div class="head">309</div>
+                            <div class="text">Total Attadance</div>
+                        </div>
+                    </div>
+                    <div class="attadance-card">
+                        <div class="image-logo">
+                            <img src="./assets/images/checkin-logo.svg" alt="checkin">
+                        </div>
+                        <div class="info-text">
+                            <div class="head">08:46</div>
+                            <div class="text">Avg Check in Time</div>
+                        </div>
+                    </div>
+                    <div class="attadance-card">
+                        <div class="image-logo">
+                            <img src="./assets/images/checkout-logo.svg" alt="checkout">
+                        </div>
+                        <div class="info-text">
+                            <div class="head">17:04</div>
+                            <div class="text">Avg Check Out Time</div>
+                        </div>
+                    </div>
+                    <div class="attadance-card">
+                        <div class="image-logo">
+                            <img src="./assets/images/batch-logo.svg" alt="batch">
+                        </div>
+                        <div class="info-text">
+                            <div class="head">Role Modal</div>
+                            <div class="text">Employee Preddicate</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="employee-attadence-wrap">
+                <div class="attadance-histoey-filter">
+                    <div class="head">Attendance History</div>
+                    <div class="filter-buttons">
+                        <div class="view-buttons">
+                            <button class="btn active" id="grid-view">
+                                <img src="./assets/images/grid-logo.svg" alt="grid-view-icon">
+                            </button>
+                            <button class="btn" id="list-view">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="filter-section">
+                            <button class="btn" id="sort-btn">
+                                <img src="./assets/images/sort-icon.svg" alt="sort-icon">
+                                <span>Sort</span>
+                            </button>
+                            <div class="dropdown" id="filter-btn">
+                                <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <img src="./assets/images/filter-icon.svg" alt="filter-icon">
+                                    <span>Filter</span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><button class="dropdown-item">on Time</button></li>
+                                    <li><button class="dropdown-item">Late</button></li>
+                                    <li><button class="dropdown-item">Absent</button></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="attadance-card-wrap-main">
+                    <div class="attadance-card-wrap" id="attadance-card-wrap"></div>
+                </div>
+                <ul class="pagination" id="pagination"></ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
